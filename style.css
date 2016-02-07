@@ -54,6 +54,7 @@ h3 {
 	border-bottom: 2px solid #ccc;
 	position: fixed;
 	width: 100%;
+	position:static;
 }
 #logo {
 	width: 250px;
@@ -213,5 +214,6 @@ input[type=submit] {
 	padding: 10px 30px;
 	cursor: pointer;
 }
-Status API Training Shop Blog About Pricing
-© 2016 GitHub, Inc. Terms Privacy Security Contact Help
+@media screen and(max-width:980px){}
+@media screen and(max-width:768px){}
+@media screen and(max-width:640px){}
