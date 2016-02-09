@@ -54,7 +54,7 @@ h3 {
 	border-bottom: 2px solid #ccc;
 	position: fixed;
 	width: 100%;
-	position:static;
+	
 }
 #logo {
 	width: 250px;
@@ -215,5 +215,7 @@ input[type=submit] {
 	cursor: pointer;
 }
 @media screen and(max-width:980px){}
-@media screen and(max-width:768px){}
-@media screen and(max-width:640px){}
+@media screen and (max-width:768){}
+@media screen and (max-width:640px){
+	.masthead {position:static}
+}
